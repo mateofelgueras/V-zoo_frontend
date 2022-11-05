@@ -1,16 +1,14 @@
 <template>
   <div id="homepage">
     <Header/>
-  </div>
-  <div id="div-SideBar">
-    <SideBar/>
-  </div>
 
-  <div id="home-container">
-    <home/>
-  </div>
+    <div id="home-container">
+      <div id="div-SideBar">
+        <SideBar/>
+      </div>
+      <home/>
+    </div>
 
-  <div>
     <Footer/>
   </div>
 </template>
@@ -55,4 +53,6 @@ export default {
   flex-direction: column;
   flex-wrap: wrap;
 }
+
+
 </style>
