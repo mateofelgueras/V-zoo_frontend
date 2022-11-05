@@ -3,12 +3,12 @@
   <div id="titulo">
     <h3>Ultimas Noticias!</h3>
     </div>
-    <div class="contenedor_articulos">
-      <MenuProduct v-for="(articulo, index) in articulos" v-bind:key="index"
-                   v-bind:name="articulo.name"
-                   v-bind:image="articulo.image"
-                   v-bind:description="articulo.description"
-      />
+    <div v-for="item in data" :key=item.id class="contenedor_articulos" >
+      <p class="titulo">{{item.titulo}}</p>
+      <img class="product-img" src="{{item.image}}">
+      <p class="medio">{{item.medio}}</p>
+      <p class="fecha">{{item.fecha}}</p>
+
     </div>
 
 
@@ -16,18 +16,19 @@
 </template>
 
 <script>
-import MenuProduct from "@/components/MenuProduct";
-import {beverageProducts} from "@/assets/js/fakeAPI";
+
+import jsonData from "../assets/js/jsonData.json";
 
 export default {
-  name: "SideBar",
-  components: {MenuProduct},
+    name: 'SideBar',
 
   data() {
     return {
-      articulos: beverageProducts
+      data: jsonData,
+
     }
-  },
+  }
+
 }
 </script>
 
@@ -43,6 +44,13 @@ export default {
   border-radius: 5px;
   text-align: center;
 }
-
-
+.fecha{
+  border-bottom: 1px solid black;
+  margin-bottom: 0px;
+  padding-bottom: 6px;
+}
+.product-img{
+  width: 150px;
+  height: 150px;
+}
 </style>

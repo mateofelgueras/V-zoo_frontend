@@ -6,9 +6,10 @@
       <div id="div-SideBar">
         <SideBar/>
       </div>
-      <home/>
+      <div id="div-Home">
+        <HomeComp/>
+      </div>
     </div>
-
     <Footer/>
   </div>
 </template>
@@ -17,22 +18,20 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SideBar from "@/components/SideBar";
-import Home from "@/components/Home";
+import HomeComp from "@/components/Home";
+
 
 export default {
   name: "HomeView",
   components: {
+    HomeComp,
     SideBar,
     Header,
     Footer,
-    Home,
   },
 
-  methods: {
-
-
-  },
 }
+
 </script>
 
 <style scoped>
@@ -44,7 +43,7 @@ export default {
 }
 #home-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
 }
