@@ -1,7 +1,7 @@
 <template>
   <div id="Contenido_Total">
     <div>
-      <img src="@/assets/img/LOGO3.png" alt="logo_pagina">
+      <img src="@/assets/img/Logofinal.png" alt="logo_pagina">
     </div>
 
     <div id="Medio_Del_Header">
