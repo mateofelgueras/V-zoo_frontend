@@ -12,7 +12,8 @@ createApp(App).mount('#app')
 const routes=[
     {path: '/', name:"HomeRoute", component: HomeView},
     {path: '/selva', name: "SelvaRoute", component: Selva},
-    {path: '/registro', component: Registro}
+    {path: '/registro', component: Registro},
+
 ]
 
 
@@ -21,7 +22,7 @@ const router = VueRouter.createRouter({
     routes,
 });
 
-// Add router to the Vue instance
+
 const app = Vue.createApp(App);
 app.use(router);
 app.mount('#app');

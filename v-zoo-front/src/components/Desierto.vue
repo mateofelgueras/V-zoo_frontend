@@ -65,5 +65,15 @@ export default {
 </script>
 
 <style scoped>
+.boxes{
+  display: flex;
+  flex-direction: column;
+}
+.firstbox{
+  display: inline;
 
+}
+.secondbox{
+  display: inline;
+}
 </style>

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "router-view": "^1.1.7",
     "ruter": "^0.0.3",
     "vue": "^3.2.41",
     "vue-router": "^4.1.6"
