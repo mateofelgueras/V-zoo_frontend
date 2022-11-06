@@ -17,7 +17,7 @@
         <label>E-mail<span class="required-field">*</span></label>
         <input id="email-label" type="text" v-model="email" required>
 
-        <input type="submit" value="Suscribirme">
+        <input type="submit" value="Registrarme">
       </form>
 
     </div>
@@ -41,7 +41,7 @@ export default {
   data() {
     return {
       title: "Creá tu cuenta",
-      subtitle: "Con esta suscripción recibiras las ultimas noticias, y podras explorar V-zoo",
+      subtitle: "Con su registro recibiras las ultimas noticias, y podras explorar V-zoo",
       firstName: "",
       lastName: "",
       email: ""
