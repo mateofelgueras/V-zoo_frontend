@@ -9,10 +9,12 @@
 
 
 
+
+
 import HomeView from "@/views/HomeView";
 export default {
   name: 'App',
-  components: {HomeView, },
+  components: {HomeView},
 }
 </script>
 

@@ -1,7 +1,7 @@
 <template>
   <div id="Contenido_Total">
     <div>
-      <img src="@/assets/img/zoo.jpg" alt="logo_pagina">
+      <img src="@/assets/img/LOGO3.png" alt="logo_pagina">
     </div>
 
     <div id="Medio_Del_Header">
@@ -58,7 +58,7 @@ export default {
 }
 
 img {
-  max-width: 120px;
+  max-width: 420px;
   border-radius: 50%;
 }
 
