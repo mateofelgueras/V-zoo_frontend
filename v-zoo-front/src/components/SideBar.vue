@@ -4,7 +4,8 @@
     <h3>Ultimas Noticias!</h3>
     </div>
     <div v-for="item in data" :key=item.id class="contenedor_articulos" >
-      <p class="titulo">{{item.titulo}}</p>
+      <a href="{{item.link}}">{{item.titulo}}</a>
+      <br><br>
       <img class="product-img" src="{{item.image}}">
       <p class="medio">{{item.medio}}</p>
       <p class="fecha">{{item.fecha}}</p>

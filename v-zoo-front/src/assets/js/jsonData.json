@@ -1,27 +1,31 @@
 [
   {
     "titulo": "La forma de comunicación “secreta” de 50 animales marinos que se creía eran silenciosos",
-    "image": "../assets/img/products/comunicacion_secreta.png",
+    "image": "../assets/img/fotos/comunicacion_secreta.png",
     "medio": "BBC",
-    "fecha": "27/10/22"
+    "fecha": "27/10/22",
+    "link": "https://www.lanacion.com.ar/lifestyle/la-forma-de-comunicacion-secreta-de-50-animales-marinos-que-se-creia-eran-silenciosos-nid27102022/"
   },
   {
     "titulo": "Por qué están bajando de los árboles monos que antes no pisaban el suelo",
-    "image": "../assets/img/products/monos_bajando.png",
+    "image": "../assets/img/fotos/monos_bajando.png",
     "medio": "El Pais",
-    "fecha": "25/10/22"
+    "fecha": "25/10/22",
+    "link": "https://www.lanacion.com.ar/sociedad/por-que-estan-bajando-de-los-arboles-monos-que-antes-no-pisaban-el-suelo-nid25102022/#:~:text=Las%20bajadas%20a%20tierra%2C%20antes,o%20directamente%20tumbarse%20a%20descansar."
   },
   {
     "titulo": "Un estudio revela si tu perro puede detectar si estás estresado",
-    "image": "@/assets/img/products/perro_estres.png",
+    "image": "@/assets/img/fotos/perro_estres.png",
     "medio": "GDA",
-    "fecha": "25/10/22"
+    "fecha": "25/10/22",
+    "link": "https://www.lanacion.com.ar/lifestyle/un-estudio-revela-si-tu-perro-puede-detectar-si-estas-estresado-nid25102022/"
   },
   {
     "titulo": "La dramática situación que viven los animales en una playa de Península Valdés",
-    "image": "C:/Users/mateo/Desktop/UCEMA/2año/2Cuatrimestre/Programacion/V-zoo_frontend/v-zoo-front/src/assets/img/products/peninsula_valdes.png",
+    "image": "C:/Users/mateo/Desktop/UCEMA/2año/2Cuatrimestre/Programacion/V-zoo_frontend/v-zoo-front/src/assets/img/fotos/peninsula_valdes.png",
     "medio": "La Nacion",
-    "fecha": "25/10/22"
+    "fecha": "25/10/22",
+    "link": "https://www.lanacion.com.ar/sociedad/la-dramatica-situacion-de-los-elefantes-marinos-en-peninsula-valdes-que-revela-una-campana-de-yago-nid25102022/#:~:text=Una%20de%20nuestras%20costas%20m%C3%A1s,en%20esta%20%C3%A9poca%20del%20a%C3%B1o."
   }
 
 ]
